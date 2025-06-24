@@ -12,3 +12,4 @@ phases:
       - echo Running application...
       - python app.py
       - printenv
+      - yum install curl
