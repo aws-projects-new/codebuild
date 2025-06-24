@@ -11,4 +11,5 @@ phases:
     commands:
       - echo Running application...
       - python app.py
+      - echo $HOME
       - printenv
