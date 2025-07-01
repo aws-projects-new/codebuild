@@ -11,5 +11,4 @@ phases:
     commands:
       - echo Running application...
       - python app.py
-      - echo $HOME
-      - printenv
+      - echo $CODEBUILD_SRC_DIR
