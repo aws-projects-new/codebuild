@@ -12,4 +12,4 @@ phases:
       - echo Running application...
       - python app.py
       - echo $CODEBUILD_SRC_DIR
-      - yum install newpackage
+      - yum install telnet
